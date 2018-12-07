@@ -235,3 +235,23 @@ header{
     grid-row: 4;
   }
 /* End Of Gallery */
+
+/* Partners */
+
+#partners a .panel{
+    box-shadow: #d4d4d4 1px 2px;
+}
+
+#partners a .panel:hover{
+    box-shadow: #b3b3b3 2px 4px;
+}
+
+
+
+/* End Of Partners */
+
+/* Footer Section */
+#footer{
+    background: #d4d4d4;
+}
+/* End Of Footer Section */
