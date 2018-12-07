@@ -11,57 +11,173 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>SAARC STARTUP SUMMIT</title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Unlock');
+        @import url('https://fonts.googleapis.com/css?family=Merriweather');
+        @import url('https://fonts.googleapis.com/css?family=Oswald');
+        *{
+            margin: 0px;
+            padding: 0px;
+        }	
+        .header{
+            background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/bg.jpeg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+        }
+        .navbar .navbar-brand{
+            color: white;
+        }
+        nav.white .navbar-brand{
+            color: black;
+        }
+        .navbar{
+            background-color: transparent;
+            border-color: transparent;
+        }
+        nav.white .navbar-right li a{
+            text-transform: uppercase;
+            color: black;
+            font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 16px;
+        }
+         nav.white{
+            background-color: white;
+            transition: 0.7s linear;
+        }
+        .navbar .navbar-right li a{
+            text-transform: uppercase;
+            color: white;
+            font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 16px;
+        }
+        .navbar .navbar-right .active a{
+            border-bottom: 2px solid #751C58;
+        }
+        .navbar .navbar-right a:hover{
+            border-bottom: 2px solid #751C58;
+            background-color: transparent;	
+        }
+        .content .container{
+            padding-top: 15%;
+        }
+        .content .container img{
+            margin: auto;
+        }
+        .content .container p{
+            font-size: 28px;
+            /* font-family: 'Unlock', cursive; */
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+            display: block;
+               padding-bottom: 0.5rem;
+            letter-spacing: 4px;
+            color: white;
+            text-align: center;
+        }
+        .content .container #sub-text{
+            font-family: 'Merriweather', serif;
+            font-size: 16px;
+            letter-spacing: 2px;
+            color: white;
+            text-align: center;
+        }
+        /* Media Queires */
+        @media(max-width: 568px){
+        .navbar .navbar-brand{
+            color: white;
+        }
+        nav.white .navbar-brand{
+            color: black;
+        }
+        .navbar{
+            background-color: transparent;
+            border-color: transparent;
+        }
+        .navbar .icon-bar{
+            background-color: white;
+            border-color: white;
+        }
+         nav.white{
+            background-color: white;
+            transition: 0.7s linear;
+        }
+    
+        nav.white .icon-bar{
+            background-color: black;
+            border-color: black;
+        }
+        .navbar .navbar-right li a{
+            text-transform: uppercase;
+            color: white;
+            font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 16px;
+        }
+        .content .container{
+            padding-top: 40%;
+        }
+        .content .container img{
+            margin: auto;
+        }
+        .content .container p{
+            font-size: 28px;
+            /* font-family: 'Unlock', cursive; */
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+            display: block;
+               padding-bottom: 0.5rem;
+            letter-spacing: 4px;
+            color: white;
+            text-align: center;
+        }
+        .content .container #sub-text{
+            font-family: 'Merriweather', serif;
+            font-size: 16px;
+            letter-spacing: 2px;
+            color: white;
+            text-align: center;
+        }	
+    }
+        </style>
 </head>
 
 <body>
 
-    <!-- Navbar -->
-
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">SAARCSTARTUP SUMMIT</a>
+   <!-- Start of Header Section -->
+	<section class="header">
+            <nav class="navbar navbar-expand-lg navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">SAARCSTARTUP SUMMIT</a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="list-unstyled list-inline nav navbar-nav navbar-right">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="">Speakers</a></li>
+                            <li><a href="">Schedule</a></li>
+                            <li><a href="">Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="content">
+                <div class="container">
+                    <img src="img/logo.svg" class="img-responsive img-fluid">
+                    <p>Bengaluru, December 21<sup>st</sup>, 2018</p>
+                    <p id="sub-text">A Glimpse of SAARC STARTUP SUMMIT</p>
+                </div>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="">Speakers</a></li>
-                    <li><a href="">Schedule</a></li>
-                    <li><a href="">Register</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-
-    <!-- End Of Navbar -->
-
-    <!-- Banner Image -->
-    <header class="v-header container">
-        <div class="fullscreen-video-wrap">
-            <img src="img/bg.jpeg" alt="">
-            <!-- <video src="vid/code1.mp4" autoplay="true" loop="true"></video> -->
-        </div>
-        <div class="header-overlay"></div>
-        <div class="header-content container">
-            
-            <img class="img-responsive" src="img/logo.svg" alt="" style="margin:auto">
-            <p>Bengaluru, December 21<sup>st</sup>, 2018</p>
-            <p id="sub-text">A Glimpse of SAARC STARTUP SUMMIT</p>
-           
-        </div>
-    </header>
-
-    <!-- End Of Banner Image -->
+        </section>
+        <!-- End of Header Section -->
 
     <!-- Info Section -->
     <section id="info">
@@ -112,30 +228,94 @@
        <div class="container-fluid">
            <div class="row">
                <h1 class="container-title">Real Life Avengers</h3>
-                <div class="col-md-3 col-xs-6" style="background-size: cover;
+                <div class="col-md-3 col-xs-12" style="background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;">
-                    <img src="img/nelson.jpg" alt="" class="img-responsive" >
+                    <img src="img/nelson.jpg" alt="" class="img-responsive" > <br>
+                    <img class="img-responsive" src="img/famelogo.png" alt="" style="margin:auto; height: 30px; border-radius: 0 !important">
+                    <h3 style="margin-bottom:10px">Nelson J Vasanth</h3>
+                    <p>India</p>
                 </div>
-                <div class="col-md-3 col-xs-6" style="background-size: cover;
+                <div class="col-md-3 col-xs-12" style="background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;">
-                    <img src="img/nelson.jpg" alt="" class="img-responsive">
+                    <img src="img/nelson.jpg" alt="" class="img-responsive"> <br>
+                    <img class="img-responsive" src="img/famelogo.png" alt="" style="margin:auto; height: 30px; border-radius: 0 !important">
+                    <h3 style="margin-bottom:10px">Nelson J Vasanth</h3>
+                    <p>India</p>
                 </div>
-                <div class="col-md-3 col-xs-6" style="background-size: cover;
+                <div class="col-md-3 col-xs-12" style="background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;">
-                    <img src="img/nelson.jpg" alt="" class="img-responsive">
+                    <img src="img/nelson.jpg" alt="" class="img-responsive"> <br>
+                    <img class="img-responsive" src="img/famelogo.png" alt="" style="margin:auto; height: 30px; border-radius: 0 !important">
+                    <h3 style="margin-bottom:10px">Nelson J Vasanth</h3>
+                    <p>India</p>
                 </div>
-                <div class="col-md-3 col-xs-6" style="background-size: cover;
+                <div class="col-md-3 col-xs-12" style="background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;">
-                    <img src="img/nelson.jpg" alt="" class="img-responsive">
+                    <img src="img/nelson.jpg" alt="" class="img-responsive"> <br>
+                    <img class="img-responsive" src="img/famelogo.png" alt="" style="margin:auto; height: 30px; border-radius: 0 !important">
+                    <h3 style="margin-bottom:10px">Nelson J Vasanth</h3>
+                    <p>India</p>
                 </div>
+               <br>
+                <a class="btn" href="" style="margin-top:40px">View all Avengers &nbsp; <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
            </div>
        </div>
     </section>
     <!-- End OF Speaker Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" style="margin:80px 0">
+            <div class="wrapper">
+                    <div class="one">
+                        <img src="img/bg.jpeg" alt="" class="img-responsive">
+                    </div>
+                    <div class="two">
+                            <img src="img/bg.jpeg" alt="" class="img-responsive">
+                    </div>
+                    <div class="three">
+                            <img src="img/bg.jpeg" alt="" class="img-responsive">
+                    </div>
+                    <div class="four">
+                            <img src="img/bg.jpeg" alt="" class="img-responsive">
+                    </div>
+                    <div class="five">
+                            <img src="img/bg.jpeg" alt="" class="img-responsive">
+                    </div>
+                    <div class="six">
+                            <img src="img/bg.jpeg" alt="" class="img-responsive">
+                    </div>
+                  </div>
+    </section>
+    <!-- End Of Gallery Section -->
+
+    <!-- Organizer Section -->
+    <Section id="organizer">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-md-6" style="margin-top:20px">
+                 <img src="img/bg.jpeg" alt="" class="img-responsive">
+                </div>
+                
+                <div class="col-md-6" style="margin-top:20px">
+                    <h2>Organzer</h2>
+                    <br>
+                    <p>Starting in the Nordics in 2012, the Global Startup Awards annually selects and awards those within their respective regional tech / web industries that have shown outstanding achievements in business and service to the community.</p>
+                    <a class="btn" href="http://www.globalstartupawards.com/" target="_blank" style="margin-top:40px; text-decoration: none; color:#751C58">Read More &nbsp; <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                    <br><br>
+                    <h2>What is WSF?</h2>
+                    <br>
+                    <p>World Startup Foundation (WSF) - is an organization that is dedicated to build a highly collaborative, engaging and inspiring ecosystems for startups across the world.</p>
+                    <a class="btn" href="http://worldstartupfest.com/" target="_blank" style="margin-top:40px; text-decoration: none; color:#751C58">Read More &nbsp; <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- End OF Organizer Section -->
 
 
 
@@ -144,6 +324,20 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(window).scroll(function() {
+                  if ($(document).scrollTop() > 50) {
+                    $('.navbar').addClass('white');
+                  } else {
+                    $('.navbar').removeClass('white');
+                  }
+            });
+            });
+            
+    
+        </script>    
+
 </body>
 
 </html>

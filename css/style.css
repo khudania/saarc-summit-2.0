@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Unlock');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 
 *{
@@ -23,6 +24,12 @@ body{
     font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
 }
 
 section{
@@ -159,6 +166,7 @@ header{
     text-decoration: none;
     color:#fff;
     font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 /* End Of Subscription Section */
 
@@ -173,9 +181,57 @@ header{
     margin:auto
 }
 
+#speaker h3, #speaker p{
+    text-align: center;
+}
+
+#speaker .btn{
+    text-decoration: none;
+    color:#fff;
+    background-color: rgb(117, 28, 88);
+    border-radius: 40px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
 @media(max-width:400px){
     #speaker img{
         height:120px
     }
 }
 /* End Of Speakers */
+
+/* Gallery */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  .two { 
+    grid-column: 2 / 2;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 2 / 5;
+  }
+  .four {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 4;
+  }
+/* End Of Gallery */
