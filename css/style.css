@@ -149,14 +149,14 @@ header{
     display: block;
     height: 2px;
     width: 64px;
-    background-color: rgb(117, 28, 88)
+    background-color: #8201C4
 
 }
 /* End of Info Section */
 
 /* Subscription Section */
 #subscription{
-    background-color: rgb(117, 28, 88);
+    background-color: #8201C4;
     padding: 30px;
     color: #fff;
     text-align: center;
@@ -196,7 +196,7 @@ header{
 #speaker .btn{
     text-decoration: none;
     color:#fff;
-    background-color: rgb(117, 28, 88);
+    background-color: #8201C4;
     border-radius: 40px;
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -273,8 +273,8 @@ header{
 }
 
 #footer .mail a:hover{
-    color:rgb(117, 28, 88); 
-    border:2px rgb(117, 28, 88) solid; 
+    color:#8201C4; 
+    border:2px #8201C4 solid; 
     background: #d4d4d4;
     text-decoration: none;
    
