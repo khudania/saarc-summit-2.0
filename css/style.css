@@ -310,3 +310,14 @@ header{
 }
 
 /* End Of Speaker Page */
+
+
+
+.session-icon {
+    --iron-icon-width: 88px;
+    --iron-icon-height: 88px;
+    --iron-icon-fill-color: var(--border-light-color);
+    position: absolute;
+    right: 40px;
+    bottom: -4px;
+}
