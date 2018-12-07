@@ -297,3 +297,16 @@ header{
     border-bottom: 1px solid #333;
 }
 /* End Of Footer Section */
+
+
+/* Speaker Page */
+
+.speaker_page .panel{
+    box-shadow: #d4d4d4 1px 2px;
+}
+
+.speaker_page .panel:hover{
+    box-shadow: #d4d4d4 2px 2px 2px 2px;
+}
+
+/* End Of Speaker Page */
