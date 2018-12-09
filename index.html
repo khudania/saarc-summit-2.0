@@ -8,286 +8,317 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>SAARC STARTUP SUMMIT</title>
     <style type="text/css">
         @import url('https://fonts.googleapis.com/css?family=Unlock');
         @import url('https://fonts.googleapis.com/css?family=Merriweather');
         @import url('https://fonts.googleapis.com/css?family=Oswald');
-        *{
+
+        * {
             margin: 0px;
             padding: 0px;
-        }	
-        .header{
-            background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/bg.jpeg);
+        }
+
+        .header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg.jpeg);
             background-size: cover;
             background-attachment: fixed;
             background-repeat: no-repeat;
             width: 100%;
             height: 100vh;
         }
-        .navbar .navbar-brand{
+
+        .navbar .navbar-brand {
             color: white;
         }
-        nav.white .navbar-brand{
+
+        nav.white .navbar-brand {
             color: black;
         }
-        .navbar{
+
+        .navbar {
             background-color: transparent;
             border-color: transparent;
         }
-        nav.white .navbar-right li a{
+
+        nav.white .navbar-right li a {
             text-transform: uppercase;
             color: black;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             /* font-size: 13px; */
         }
-         nav.white{
+
+        nav.white {
             background-color: white;
             transition: 0.7s linear;
         }
-        .navbar .navbar-right li a{
+
+        .navbar .navbar-right li a {
             text-transform: uppercase;
             color: white;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 12px;
         }
-        .navbar .navbar-right .active a{
+
+        .navbar .navbar-right .active a {
             border-bottom: 2px solid #8201C4;
         }
-        .navbar .navbar-right a:hover{
+
+        .navbar .navbar-right a:hover {
             border-bottom: 2px solid #8201C4;
-            background-color: transparent;	
+            background-color: transparent;
         }
-        .content .container{
+
+        .content .container {
             padding-top: 15%;
         }
-        .content .container img{
+
+        .content .container img {
             margin: auto;
         }
-        .content .container p{
+
+        .content .container p {
             font-size: 28px;
             /* font-family: 'Unlock', cursive; */
             font-family: 'Oswald', sans-serif;
             font-weight: bold;
             display: block;
-               padding-bottom: 0.5rem;
+            padding-bottom: 0.5rem;
             letter-spacing: 4px;
             color: white;
             text-align: center;
         }
-        .content .container #sub-text{
+
+        .content .container #sub-text {
             font-family: 'Merriweather', serif;
             font-size: 16px;
             letter-spacing: 2px;
             color: white;
             text-align: center;
         }
+
         /* Media Queires */
-        @media(max-width: 568px){
-        .navbar .navbar-brand{
-            color: white;
-        }
-        nav.white .navbar-brand{
-            color: black;
-        }
-        .navbar{
-            background-color: transparent;
-            border-color: transparent;
-        }
-        .navbar .icon-bar{
-            background-color: white;
-            border-color: white;
-        }
-         nav.white{
-            background-color: white;
-            transition: 0.7s linear;
-             box-shadow: 0 0 5px 0 #333;
-        }
-    
-        nav.white .icon-bar{
-            background-color: black;
-            border-color: black;
-        }
-        .navbar .navbar-right li a{
-            text-transform: uppercase;
-            color: white;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 16px;
-        }
-        .content .container{
-            padding-top: 40%;
-        }
-        .content .container img{
-            margin: auto;
-        }
-        .content .container p{
-            font-size: 28px;
-            /* font-family: 'Unlock', cursive; */
-            font-family: 'Oswald', sans-serif;
-            font-weight: bold;
-            display: block;
-               padding-bottom: 0.5rem;
-            letter-spacing: 4px;
-            color: white;
-            text-align: center;
-        }
-        .content .container #sub-text{
-            font-family: 'Merriweather', serif;
-            font-size: 16px;
-            letter-spacing: 2px;
-            color: white;
-            text-align: center;
-        }	
-    }
+        @media(max-width: 568px) {
+            .navbar .navbar-brand {
+                color: white;
+            }
 
-#info{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/bg1.jpg);
-         
-   
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-    color:#fff !important;
-}
+            nav.white .navbar-brand {
+                color: black;
+            }
+
+            .navbar {
+                background-color: transparent;
+                border-color: transparent;
+            }
+
+            .navbar .icon-bar {
+                background-color: white;
+                border-color: white;
+            }
+
+            nav.white {
+                background-color: white;
+                transition: 0.7s linear;
+                box-shadow: 0 0 5px 0 #333;
+            }
+
+            nav.white .icon-bar {
+                background-color: black;
+                border-color: black;
+            }
+
+            .navbar .navbar-right li a {
+                text-transform: uppercase;
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 16px;
+            }
+
+            .content .container {
+                padding-top: 40%;
+            }
+
+            .content .container img {
+                margin: auto;
+            }
+
+            .content .container p {
+                font-size: 28px;
+                /* font-family: 'Unlock', cursive; */
+                font-family: 'Oswald', sans-serif;
+                font-weight: bold;
+                display: block;
+                padding-bottom: 0.5rem;
+                letter-spacing: 4px;
+                color: white;
+                text-align: center;
+            }
+
+            .content .container #sub-text {
+                font-family: 'Merriweather', serif;
+                font-size: 16px;
+                letter-spacing: 2px;
+                color: white;
+                text-align: center;
+            }
+        }
+
+        #info {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg1.jpg);
 
 
-/*for the gallery*/
-.column {
-      float: left;
-      padding: 1px;
-    }
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
 
-    /* Clear floats after image containers */
-    .test::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-    .test {
-      display: flex;
-    }
+            color: #fff !important;
+        }
 
-    .column {
-      padding: 1px;
-    }
 
-    
+        /*for the gallery*/
+        .column {
+            float: left;
+            padding: 1px;
+        }
 
-        </style>
+        /* Clear floats after image containers */
+        .test::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .test {
+            display: flex;
+        }
+
+        .column {
+            padding: 1px;
+        }
+    </style>
 </head>
 
 <body>
 
-   <!-- Start of Header Section -->
-	<section class="header">
-            <nav class="navbar navbar-expand-lg navbar-fixed-top">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#">
-                            <img src="img/saarclogo.png" style="height:30px" alt="" class="img-responsive">
-                        </a>
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                        aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="list-unstyled list-inline nav navbar-nav navbar-right">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="speakers.html">Speakers</a></li>
-                            <li><a href="schedule.html">Schedule</a></li>
-                            <li><a href="">Register</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <div class="content">
-                <div class="container">
-                    <img src="img/saarclogo.png" class="img-responsive img-fluid" style="height:100px">
-                    <p>Bengaluru, December 21<sup>st</sup>, 2018</p>
-                    <p id="sub-text">A Glimpse of SAARC STARTUP SUMMIT</p>
-                </div>
-            </div>
-        </section>
-        <!-- End of Header Section -->
-
-        <!-- Organizer Section -->
-    <Section id="organizer">
+    <!-- Start of Header Section -->
+    <section class="header">
+        <nav class="navbar navbar-expand-lg navbar-fixed-top">
             <div class="container-fluid">
-                <div class="row">
-                    
-                    <div class="col-md-6" style="margin-top:20px">
-                     <img src="img/bg.jpeg" alt="" class="img-responsive">
-                    </div>
-                    
-                    <div class="col-md-6" style="margin-top:20px">
-                        <h1>Organizer</h1> <br>
-                        <h2>GSA</h2>
-                        <br>
-                        <p>Global Startup Awards SAARC, focuses on celebrating the spirit of entrepreneurship and promote
-                                bridging boundaries using innovation in our region comprising of Afghanistan, Bangladesh, Bhutan,
-                                India, Maldives, Nepal, Pakistan and Sri Lanka by appreciating them with our most coveted awards
-                                program which will be attended by the top-notch entrepreneurs, corporate's, investors and
-                                ecosystem builders from Nordic, Central Europe, SAARC and ASEAN.</p>
-                        <a class="btn" href="http://www.globalstartupawards.com/" target="_blank" style="margin-top:20px; text-decoration: none; color:#8201C4">Read More &nbsp; <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-                        <br>
-                        <h2>What is SSS?</h2>
-                        <br>
-                        <p><b>SAARC Startup Summit (SSS)</b> - is an organization that is dedicated to build a highly collaborative, engaging and inspiring ecosystems for startups across the world.</p>
-                        <a class="btn" href="http://worldstartupfest.com/" target="_blank" style="margin-top:20px; text-decoration: none; color:#8201C4">Read More &nbsp; <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-                    </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/saarclogo.png" style="height:30px" alt="" class="img-responsive">
+                    </a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="list-unstyled list-inline nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="speakers.html">Speakers</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="">Register</a></li>
+                    </ul>
                 </div>
             </div>
-        </Section>
-        <!-- End OF Organizer Section -->
+        </nav>
+        <div class="content">
+            <div class="container">
+                <img src="img/saarclogo.png" class="img-responsive img-fluid" style="height:100px">
+                <p>Bengaluru, December 21<sup>st</sup>, 2018</p>
+                <p id="sub-text">A Glimpse of SAARC STARTUP SUMMIT</p>
+            </div>
+        </div>
+    </section>
+    <!-- End of Header Section -->
+
+    <!-- Organizer Section -->
+    <Section id="organizer">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-6" style="margin-top:20px">
+                    <img src="img/bg.jpeg" alt="" class="img-responsive">
+                </div>
+
+                <div class="col-md-6" style="margin-top:20px">
+                    <h1>Organizer</h1> <br>
+                    <h2>GSA</h2>
+                    <br>
+                    <p>Global Startup Awards SAARC, focuses on celebrating the spirit of entrepreneurship and promote
+                        bridging boundaries using innovation in our region comprising of Afghanistan, Bangladesh,
+                        Bhutan,
+                        India, Maldives, Nepal, Pakistan and Sri Lanka by appreciating them with our most coveted
+                        awards
+                        program which will be attended by the top-notch entrepreneurs, corporate's, investors and
+                        ecosystem builders from Nordic, Central Europe, SAARC and ASEAN.</p>
+                    <a class="btn" href="http://www.globalstartupawards.com/" target="_blank" style="margin-top:20px; text-decoration: none; color:#8201C4">Read
+                        More &nbsp; <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                    <br>
+                    <h2>What is SSS?</h2>
+                    <br>
+                    <p><b>SAARC Startup Summit (SSS)</b> - is an organization that is dedicated to build a highly
+                        collaborative, engaging and inspiring ecosystems for startups across the world.</p>
+                    <a class="btn" href="http://worldstartupfest.com/" target="_blank" style="margin-top:20px; text-decoration: none; color:#8201C4">Read
+                        More &nbsp; <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- End OF Organizer Section -->
 
     <!-- Info Section -->
     <section id="info" style="padding:50px 0; margin-top:50px">
         <div class="container-fluid">
-           
+
             <div class="row">
-                    <div class="col-md-6" style="margin-top:20px">
-                            <div class="row">
-                                <div class="col-md-6 col-xs-6">
-                                    <h1 id="number">1</h1>
-                                    <h4>Day</h4>
-                                </div>
-                                <div class="col-md-6 col-xs-6">
-                                    <h1 id="number">100+</h1>
-                                    <h4>Participants</h4>
-                                </div>
-                            </div>
-                            <br>
-                            <div class="row">
-                                <div class="col-md-6 col-xs-6">
-                                    <h1 id="number">1</h1>
-                                    <h4>Session</h4>
-                                </div>
-                                <div class="col-md-6 col-xs-6">
-                                    <h1 id="number">2</h1>
-                                    <h4>Speakers</h4>
-                                </div>
-                            </div>
-                        </div>
                 <div class="col-md-6" style="margin-top:20px">
-                    <h1 class="container-title">What you need to know, before you ask.</h1> 
-                    <p>SAARC Startup Summit 2019, gathers the brightest minds in startups and ecosystem to start conversation about the future of SAARC. We higly belive these conversation can lead to deeper regional integration.</p>
-                    <p>The intention is to learn from one another the best practices, draft policies and make plan for further programs for 2019.</p>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6">
+                            <h1 id="number">1</h1>
+                            <h4>Day</h4>
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <h1 id="number">100+</h1>
+                            <h4>Participants</h4>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6">
+                            <h1 id="number">1</h1>
+                            <h4>Session</h4>
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <h1 id="number">2</h1>
+                            <h4>Speakers</h4>
+                        </div>
+                    </div>
                 </div>
-               
+                <div class="col-md-6" style="margin-top:20px">
+                    <h1 class="container-title">What you need to know, before you ask.</h1>
+                    <p>SAARC Startup Summit 2019, gathers the brightest minds in startups and ecosystem to start
+                        conversation about the future of SAARC. We higly belive these conversation can lead to deeper
+                        regional integration.</p>
+                    <p>The intention is to learn from one another the best practices, draft policies and make plan for
+                        further programs for 2019.</p>
+                </div>
+
             </div>
         </div>
     </section>
     <!-- End Of Info Section -->
 
-    
+
 
     <!-- Section: Subscription -->
     <!-- <section id="subscription" style="padding:50px">
@@ -298,114 +329,115 @@
 
     <!-- Speakers Section -->
     <section id="speaker">
-       <div class="container-fluid">
-           <div class="row">
-               <h1 class="container-title">Real Life Avengers</h3>
-                <div class="col-md-3 col-sm-6 col-xs-12" style="background-size: cover;
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="container-title">Real Life Avengers</h3>
+                    <div class="col-md-3 col-sm-6 col-xs-12" style="background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;">
-                    <img src="img/Rikant Pitti.jpeg" alt="" class="img-responsive" > <br>
-                    <img class="img-responsive" src="img/Ease-My-Trip.png" alt="" style="margin:auto; height: 30px; border-radius: 0 !important">
-                    <h3 style="margin-bottom:10px">Rikant Pitti</h3>
-                    <h6 style="margin-bottom:10px; text-align: center">CO-Founder and COO</h6>
-                    <p>India</p>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12" style="background-size: cover;
+                        <img src="img/Rikant Pitti.jpeg" alt="" class="img-responsive"> <br>
+                        <img class="img-responsive" src="img/Ease-My-Trip.png" alt="" style="margin:auto; height: 30px; border-radius: 0 !important">
+                        <h3 style="margin-bottom:10px">Rikant Pitti</h3>
+                        <h6 style="margin-bottom:10px; text-align: center">CO-Founder and COO</h6>
+                        <p>India</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12" style="background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;">
-                    <img src="img/jitendraGupta.png" alt="" class="img-responsive"> <br>
-                    <img class="img-responsive" src="img/payu.gif" alt="" style="margin:auto; height: 30px; border-radius: 0 !important">
-                    <h3 style="margin-bottom:10px">Jitendra Gupta</h3>
-                    <h6 style="margin-bottom:10px; text-align: center">CEO</h6>
-                    <p>India</p>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12" style="background-size: cover;
+                        <img src="img/jitendraGupta.png" alt="" class="img-responsive"> <br>
+                        <img class="img-responsive" src="img/payu.gif" alt="" style="margin:auto; height: 30px; border-radius: 0 !important">
+                        <h3 style="margin-bottom:10px">Jitendra Gupta</h3>
+                        <h6 style="margin-bottom:10px; text-align: center">CEO</h6>
+                        <p>India</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12" style="background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;">
-                    <img src="img/musthafa.png" alt="" class="img-responsive"> <br>
-                    <img class="img-responsive" src="img/id.png" alt="" style="margin:auto; height: 30px; border-radius: 0 !important">
-                    <h3 style="margin-bottom:10px">Musthafa PC</h3>
-                    <h6 style="margin-bottom:10px; text-align: center">CEO</h6>
-                    <p>India</p>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12" style="background-size: cover;
+                        <img src="img/musthafa.png" alt="" class="img-responsive"> <br>
+                        <img class="img-responsive" src="img/id.png" alt="" style="margin:auto; height: 30px; border-radius: 0 !important">
+                        <h3 style="margin-bottom:10px">Musthafa PC</h3>
+                        <h6 style="margin-bottom:10px; text-align: center">CEO</h6>
+                        <p>India</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12" style="background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;">
-                    <img src="img/nitin.png" alt="" class="img-responsive"> <br>
-                    <img class="img-responsive" src="img/indigo.png" alt="" style="margin:auto; height: 30px; border-radius: 0 !important">
-                    <h3 style="margin-bottom:10px">Nitin Sethi</h3>
-                    <h6 style="margin-bottom:10px; text-align: center">VP</h6>
-                    <p>India</p>
-                </div>
-               <br>
-                <a class="btn" href="" style="margin-top:40px">View all Avengers &nbsp; <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-           </div>
-       </div>
+                        <img src="img/nitin.png" alt="" class="img-responsive"> <br>
+                        <img class="img-responsive" src="img/indigo.png" alt="" style="margin:auto; height: 30px; border-radius: 0 !important">
+                        <h3 style="margin-bottom:10px">Nitin Sethi</h3>
+                        <h6 style="margin-bottom:10px; text-align: center">VP</h6>
+                        <p>India</p>
+                    </div>
+                    <br>
+                    <a class="btn" href="" style="margin-top:40px">View all Avengers &nbsp; <i class="fa fa-arrow-circle-right"
+                            aria-hidden="true"></i></a>
+            </div>
+        </div>
     </section>
     <!-- End OF Speaker Section -->
 
-     <!-- Gallery Section -->
-     <section id="gallery" style="margin:80px 0">
-            <div class="container-fluid">
-              <div class="row test">
+    <!-- Gallery Section -->
+    <section id="gallery" style="margin:80px 0">
+        <div class="container-fluid">
+            <div class="row test">
                 <div class="column cl1">
-                  <div class="container-fluid">
-                    <div class="row test">
-                      <div class="column cl2">
-                        <img src="img/flat3.jpg" alt="Snow" style="width:39vw;height:28vh;">
-                      </div>
+                    <div class="container-fluid">
+                        <div class="row test">
+                            <div class="column cl2">
+                                <img src="img/flat3.jpg" alt="Snow" style="width:39vw;height:28vh;">
+                            </div>
+                        </div>
+                        <div class="row test">
+                            <div class="column cl3">
+                                <img src="img/sq1.jpg" alt="Snow" style="width:19.5vw;height:28vh;">
+                            </div>
+                            <div class="column cl4">
+                                <img src="img/sq2.jpg" alt="Snow" style="width:19.5vw;height:28vh;">
+                            </div>
+                        </div>
                     </div>
-                    <div class="row test">
-                      <div class="column cl3">
-                        <img src="img/sq1.jpg" alt="Snow" style="width:19.5vw;height:28vh;">
-                      </div>
-                      <div class="column cl4">
-                        <img src="img/sq2.jpg" alt="Snow" style="width:19.5vw;height:28vh;">
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <div class="column">
-                  <div class="container-fluid">
-                    <div class="row test">
-                      <div class="column cl5">
-                        <img src="img/flat4.jpg" alt="Snow" style="width:39vw;height:28vh;">
-                      </div>
+                    <div class="container-fluid">
+                        <div class="row test">
+                            <div class="column cl5">
+                                <img src="img/flat4.jpg" alt="Snow" style="width:39vw;height:28vh;">
+                            </div>
+                        </div>
+                        <div class="row test">
+                            <div class="column cl6">
+                                <img src="img/flat1.jpg" alt="Snow" style="width:39vw;height:28vh;">
+                            </div>
+                        </div>
                     </div>
-                    <div class="row test">
-                      <div class="column cl6">
-                        <img src="img/flat1.jpg" alt="Snow" style="width:39vw;height:28vh;">
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <div class="column">
-                  <div class="container-fluid">
-                    <div class="row test">
-                      <div class="column cl7">
-                        <img src="img/top1.jpg" alt="Snow" style="width:39vw;height:56vh;">
-                      </div>
+                    <div class="container-fluid">
+                        <div class="row test">
+                            <div class="column cl7">
+                                <img src="img/top1.jpg" alt="Snow" style="width:39vw;height:56vh;">
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="row test">
+            </div>
+            <div class="row test">
                 <div class="column cl9">
-                  <img src="img/flat1.jpg" alt="Snow" style="width:39vw;height:28vh;">
+                    <img src="img/flat1.jpg" alt="Snow" style="width:39vw;height:28vh;">
                 </div>
                 <div class="column cl10">
-                  <img src="img/top1.jpg" alt="Forest" style="width:15vw;height:28vh;">
+                    <img src="img/top1.jpg" alt="Forest" style="width:15vw;height:28vh;">
                 </div>
                 <div class="column cl11">
-                  <img src="img/flat2.jpg" alt="Mountains" style="width:48vw;height:28vh;">
+                    <img src="img/flat2.jpg" alt="Mountains" style="width:48vw;height:28vh;">
                 </div>
-              </div>
             </div>
+        </div>
 
     </section>
     <!-- End Of Gallery Section -->
 
-    
+
 
     <!-- Partners Section -->
     <section id="partners" style="margin:80px 20px">
@@ -414,108 +446,243 @@
                 <h2>Partners</h2> <br>
                 <h5 style="color:#474747">Executed By</h5>
                 <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                        <a href="http://fametechnologies.in/" target="_blank"><div class="panel panel-default" style="align-items:center; padding:30px">
-                      <img class="img-responsive" style="height:30px; margin:auto" src="img/famelogo.png" alt="Fame Technologies">
-                    </div></a>
+                    <a href="http://fametechnologies.in/" target="_blank">
+                        <div class="panel panel-default" style="align-items:center; padding:30px">
+                            <img class="img-responsive" style="height:30px; margin:auto" src="img/famelogo.png" alt="Fame Technologies">
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                        <a href="http://worldstartupfest.com/" target="_blank">   <div class="panel panel-default" style="align-items:center; padding:30px">
+                    <a href="http://worldstartupfest.com/" target="_blank">
+                        <div class="panel panel-default" style="align-items:center; padding:30px">
                             <img class="img-responsive" style="height:30px; margin:auto" src="img/wsf.png" alt="World Startup Fest">
-                        </div></a>
-                    </div>
-                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                            <a href="http://www.globalstartupawards.com/" target="_blank">   <div class="panel panel-default" style="align-items:center; padding:30px">
-                                    <img class="img-responsive" style="height:30px; margin:auto" src="img/gsa.png" alt="World Startup Fest">
-                                </div></a>
                         </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                    <a href="http://www.globalstartupawards.com/" target="_blank">
+                        <div class="panel panel-default" style="align-items:center; padding:30px">
+                            <img class="img-responsive" style="height:30px; margin:auto" src="img/gsa.png" alt="World Startup Fest">
+                        </div>
+                    </a>
+                </div>
             </div>
             <div class="row" style="margin-top: 30px">
-                  
-                    <h5 style="color:#474747">Inassociation with</h5>
+
+                <h5 style="color:#474747">Inassociation with</h5>
+                <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                    <a href="http://fametechnologies.in/" target="_blank">
+                        <div class="panel panel-default" style="align-items:center; padding:30px">
+                            <img class="img-responsive" style="height:30px; margin:auto" src="img/famelogo.png" alt="Fame Technologies">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                    <a href="http://worldstartupfest.com/" target="_blank">
+                        <div class="panel panel-default" style="align-items:center; padding:30px">
+                            <img class="img-responsive" style="height:30px; margin:auto" src="img/wsf.png" alt="World Startup Fest">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                    <a href="http://www.globalstartupawards.com/" target="_blank">
+                        <div class="panel panel-default" style="align-items:center; padding:30px">
+                            <img class="img-responsive" style="height:30px; margin:auto" src="img/gsa.png" alt="World Startup Fest">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px">
+
+                <h5 style="color:#474747">Participating Organization</h5>
+                <div class="row" style="margin-top:20px">
                     <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                            <a href="http://fametechnologies.in/" target="_blank"><div class="panel panel-default" style="align-items:center; padding:30px">
-                          <img class="img-responsive" style="height:30px; margin:auto" src="img/famelogo.png" alt="Fame Technologies">
-                        </div></a>
+                        <a href="https://www.easemytrip.com/" target="_blank">
+                            <div class="panel panel-default" style="align-items:center; padding:30px">
+                                <img class="img-responsive" style="height:30px; margin:auto" src="img/Ease-My-Trip.png"
+                                    alt="Ease My Trip">
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                            <a href="http://worldstartupfest.com/" target="_blank">   <div class="panel panel-default" style="align-items:center; padding:30px">
-                                <img class="img-responsive" style="height:30px; margin:auto" src="img/wsf.png" alt="World Startup Fest">
-                            </div></a>
-                        </div>
-                        <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                <a href="http://www.globalstartupawards.com/" target="_blank">   <div class="panel panel-default" style="align-items:center; padding:30px">
-                                        <img class="img-responsive" style="height:30px; margin:auto" src="img/gsa.png" alt="World Startup Fest">
-                                    </div></a>
+                        <a href="https://corporate.payu.com/" target="_blank">
+                            <div class="panel panel-default" style="align-items:center; padding:30px">
+                                <img class="img-responsive" style="height:30px; margin:auto" src="img/payu.gif" alt="PayU">
                             </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                        <a href="https://www.idfreshfood.com/" target="_blank">
+                            <div class="panel panel-default" style="align-items:center; padding:30px">
+                                <img class="img-responsive" style="height:30px; margin:auto" src="img/id.png" alt="Id Fresh Food">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                        <a href="https://www.goindigo.in/" target="_blank">
+                            <div class="panel panel-default" style="align-items:center; padding:30px">
+                                <img class="img-responsive" style="height:30px; margin:auto" src="img/indigo.png" alt="Indigo Airlines">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                        <a href="https://www.zapr.in/" target="_blank">
+                            <div class="panel panel-default" style="align-items:center; padding:30px">
+                                <img class="img-responsive" style="height:30px; margin:auto" src="img/zapr.png" alt="Zapr">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                        <a href="https://www.jio.com/" target="_blank">
+                            <div class="panel panel-default" style="align-items:center; padding:30px">
+                                <img class="img-responsive" style="height:30px; margin:auto" src="img/jio.png" alt="Jio">
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="row" style="margin-top: 30px">
-                  
-                        <h5 style="color:#474747">Participating Organization</h5>
-                        <div class="row" style="margin-top:20px">
+                <div class="row">
+                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                        <a href="https://www.zoho.com/" target="_blank">
+                            <div class="panel panel-default" style="align-items:center; padding:30px">
+                                <img class="img-responsive" style="height:30px; margin:auto" src="img/zoho.png" alt="Zoho">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                        <a href="http://www.asianet.co.in/" target="_blank">
+                            <div class="panel panel-default" style="align-items:center; padding:30px">
+                                <img class="img-responsive" style="height:30px; margin:auto" src="img/asianet.png" alt="Asianet">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                        <a href="https://razorpay.com/" target="_blank">
+                            <div class="panel panel-default" style="align-items:center; padding:30px">
+                                <img class="img-responsive" style="height:30px; margin:auto" src="img/razorpay.png" alt="RazorPay">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                        <a href="https://www.freshmenu.com/" target="_blank">
+                            <div class="panel panel-default" style="align-items:center; padding:30px">
+                                <img class="img-responsive" style="height:30px; margin:auto" src="img/freshmenu.png"
+                                    alt="Fresh Menu">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                        <a href="https://clevertap.com/" target="_blank">
+                            <div class="panel panel-default" style="align-items:center; padding:30px">
+                                <img class="img-responsive" style="height:30px; margin:auto" src="img/clevertap.png"
+                                    alt="Clever Tap">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                        <a href="https://www.jatana.ai/" target="_blank">
+                            <div class="panel panel-default" style="align-items:center; padding:30px">
+                                <img class="img-responsive" style="height:30px; margin:auto" src="img/janata.webp" alt="Janata Ai">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
                         <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                <a href="http://fametechnologies.in/" target="_blank"><div class="panel panel-default" style="align-items:center; padding:30px">
-                              <img class="img-responsive" style="height:30px; margin:auto" src="img/famelogo.png" alt="Fame Technologies">
-                            </div></a>
+                            <a href="https://www.zivame.com/" target="_blank">
+                                <div class="panel panel-default" style="align-items:center; padding:30px">
+                                    <img class="img-responsive" style="height:30px; margin:auto" src="img/Zivame.png" alt="Zivame">
+                                </div>
+                            </a>
                         </div>
                         <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                <a href="http://worldstartupfest.com/" target="_blank">   <div class="panel panel-default" style="align-items:center; padding:30px">
-                                    <img class="img-responsive" style="height:30px; margin:auto" src="img/wsf.png" alt="World Startup Fest">
-                                </div></a>
+                            <a href="https://www.finastra.com/" target="_blank">
+                                <div class="panel panel-default" style="align-items:center; padding:30px">
+                                    <img class="img-responsive" style="height:30px; margin:auto" src="img/finastra.png" alt="Finastra">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                            <a href="https://www.amazon.in/" target="_blank">
+                                <div class="panel panel-default" style="align-items:center; padding:30px">
+                                    <img class="img-responsive" style="height:30px; margin:auto" src="img/frontizo.png" alt="Frontizo">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                            <a href="https://www.phonepe.com/en/" target="_blank">
+                                <div class="panel panel-default" style="align-items:center; padding:30px">
+                                    <img class="img-responsive" style="height:30px; margin:auto" src="img/phonepe.png"
+                                        alt="PhonePe">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                            <a href="https://www.instacrypto.in/" target="_blank">
+                                <div class="panel panel-default" style="align-items:center; padding:30px">
+                                    <img class="img-responsive" style="height:30px; margin:auto" src="img/instacrypto.png"
+                                        alt="InstaCrypto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                            <a href="https://www.pepelwerk.com/" target="_blank">
+                                <div class="panel panel-default" style="align-items:center; padding:30px">
+                                    <img class="img-responsive" style="height:30px; margin:auto" src="img/peplewerk.png" alt="Peplewerk">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                            <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                                <a href="https://www.myntra.com/" target="_blank">
+                                    <div class="panel panel-default" style="align-items:center; padding:30px">
+                                        <img class="img-responsive" style="height:30px; margin:auto" src="img/myntra.png" alt="Myntra">
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                    <a href="http://www.globalstartupawards.com/" target="_blank">   <div class="panel panel-default" style="align-items:center; padding:30px">
-                                            <img class="img-responsive" style="height:30px; margin:auto" src="img/gsa.png" alt="World Startup Fest">
-                                        </div></a>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                        <a href="http://fametechnologies.in/" target="_blank"><div class="panel panel-default" style="align-items:center; padding:30px">
-                                      <img class="img-responsive" style="height:30px; margin:auto" src="img/famelogo.png" alt="Fame Technologies">
-                                    </div></a>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                        <a href="http://worldstartupfest.com/" target="_blank">   <div class="panel panel-default" style="align-items:center; padding:30px">
-                                            <img class="img-responsive" style="height:30px; margin:auto" src="img/wsf.png" alt="World Startup Fest">
-                                        </div></a>
+                                <a href="https://www.capgemini.com/" target="_blank">
+                                    <div class="panel panel-default" style="align-items:center; padding:30px">
+                                        <img class="img-responsive" style="height:30px; margin:auto" src="img/capgemini.png" alt="capgemini">
                                     </div>
-                                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                            <a href="http://www.globalstartupawards.com/" target="_blank">   <div class="panel panel-default" style="align-items:center; padding:30px">
-                                                    <img class="img-responsive" style="height:30px; margin:auto" src="img/gsa.png" alt="World Startup Fest">
-                                                </div></a>
-                                        </div>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                                <a href="https://spotplay.co/business/" target="_blank">
+                                    <div class="panel panel-default" style="align-items:center; padding:30px;">
+                                        <img class="img-responsive" style="height:30px; margin:auto; background: #333" src="img/spotplay.png" alt="spotplay">
                                     </div>
-                                    <div class="row">
-                                            <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                                    <a href="http://fametechnologies.in/" target="_blank"><div class="panel panel-default" style="align-items:center; padding:30px">
-                                                  <img class="img-responsive" style="height:30px; margin:auto" src="img/famelogo.png" alt="Fame Technologies">
-                                                </div></a>
-                                            </div>
-                                            <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                                    <a href="http://worldstartupfest.com/" target="_blank">   <div class="panel panel-default" style="align-items:center; padding:30px">
-                                                        <img class="img-responsive" style="height:30px; margin:auto" src="img/wsf.png" alt="World Startup Fest">
-                                                    </div></a>
-                                                </div>
-                                                <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                                        <a href="http://www.globalstartupawards.com/" target="_blank">   <div class="panel panel-default" style="align-items:center; padding:30px">
-                                                                <img class="img-responsive" style="height:30px; margin:auto" src="img/gsa.png" alt="World Startup Fest">
-                                                            </div></a>
-                                                    </div>
-                                                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                                            <a href="http://fametechnologies.in/" target="_blank"><div class="panel panel-default" style="align-items:center; padding:30px">
-                                                          <img class="img-responsive" style="height:30px; margin:auto" src="img/famelogo.png" alt="Fame Technologies">
-                                                        </div></a>
-                                                    </div>
-                                                    <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                                            <a href="http://worldstartupfest.com/" target="_blank">   <div class="panel panel-default" style="align-items:center; padding:30px">
-                                                                <img class="img-responsive" style="height:30px; margin:auto" src="img/wsf.png" alt="World Startup Fest">
-                                                            </div></a>
-                                                        </div>
-                                                        <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
-                                                                <a href="http://www.globalstartupawards.com/" target="_blank">   <div class="panel panel-default" style="align-items:center; padding:30px">
-                                                                        <img class="img-responsive" style="height:30px; margin:auto" src="img/gsa.png" alt="World Startup Fest">
-                                                                    </div></a>
-                                                            </div>
-                                                        </div>
-                    </div>
+                                </a>
+                            </div>
+                            <!-- <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                                <a href="https://www.phonepe.com/en/" target="_blank">
+                                    <div class="panel panel-default" style="align-items:center; padding:30px">
+                                        <img class="img-responsive" style="height:30px; margin:auto" src="img/phonepe.png"
+                                            alt="PhonePe">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                                <a href="https://www.instacrypto.in/" target="_blank">
+                                    <div class="panel panel-default" style="align-items:center; padding:30px">
+                                        <img class="img-responsive" style="height:30px; margin:auto" src="img/instacrypto.png"
+                                            alt="InstaCrypto">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-sm-6 col-xs-6" style="margin-top:5px">
+                                <a href="https://www.pepelwerk.com/" target="_blank">
+                                    <div class="panel panel-default" style="align-items:center; padding:30px">
+                                        <img class="img-responsive" style="height:30px; margin:auto" src="img/peplewerk.png" alt="Peplewerk">
+                                    </div>
+                                </a>
+                            </div> -->
+                        </div>
+
+
+            </div>
         </div>
     </section>
     <!-- End Of Partners Section -->
@@ -525,13 +692,18 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2">
-                    <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Follow us : &nbsp; <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> &nbsp; <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> &nbsp; <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> &nbsp; <a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a> &nbsp; &nbsp;</p>
-                    
+                    <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Follow us :
+                        &nbsp; <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> &nbsp; <a href="#"><i
+                                class="fa fa-twitter" aria-hidden="true"></i></a> &nbsp; <a href="#"><i class="fa fa-linkedin"
+                                aria-hidden="true"></i></a> &nbsp; <a href="#"><i class="fa fa-google-plus-official"
+                                aria-hidden="true"></i></a> &nbsp; &nbsp;</p>
+
                 </div>
                 <div class="col-md-2"></div>
                 <div class="col-md-2"></div>
                 <div class="col-md-2">
-                    <p class="mail"><a href="mailto:hkhudania@gmail.com" target="_top">Email &nbsp; <i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
+                    <p class="mail"><a href="mailto:hkhudania@gmail.com" target="_top">Email &nbsp; <i class="fa fa-envelope-o"
+                                aria-hidden="true"></i></a></p>
                 </div>
             </div>
             <hr>
@@ -545,7 +717,8 @@
                 <div class="col-md-5">
                     <p style="color:#333;">Subscribe for latest News</p>
                     <input id="subscribe" type="email" name="email" id="email" placeholder="Email Id"> <br>
-                    <a class="btn" href="#" target="_blank" style="margin-top:40px; text-decoration: none; color:#8201C4">Subscribe &nbsp; <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                    <a class="btn" href="#" target="_blank" style="margin-top:40px; text-decoration: none; color:#8201C4">Subscribe
+                        &nbsp; <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -559,19 +732,17 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $(window).scroll(function() {
-                  if ($(document).scrollTop() > 50) {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(document).scrollTop() > 50) {
                     $('.navbar').addClass('white');
-                  } else {
+                } else {
                     $('.navbar').removeClass('white');
-                  }
+                }
             });
-            });
-            
-    
-        </script>    
+        });
+    </script>
 
 </body>
 
