@@ -135,13 +135,13 @@ header{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    color: #424242;
+    color: #fff;
 
 }
 
 #number{
     font-size: 40px;
-    color: #000;
+    color: #fff;
 }
 
 #number::after{
