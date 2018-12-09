@@ -152,6 +152,29 @@
     color:#000 !important;
 }
 
+
+/*for the gallery*/
+.column {
+      float: left;
+      padding: 1px;
+    }
+
+    /* Clear floats after image containers */
+    .test::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .test {
+      display: flex;
+    }
+
+    .column {
+      padding: 1px;
+    }
+
+    
+
         </style>
 </head>
 
@@ -319,28 +342,64 @@
     </section>
     <!-- End OF Speaker Section -->
 
-    <!-- Gallery Section -->
-    <section id="gallery" style="margin:80px 0">
-            <div class="wrapper">
-                    <div class="one">
-                        <img src="img/bg.jpeg" alt="" class="img-responsive">
+     <!-- Gallery Section -->
+     <section id="gallery" style="margin:80px 0">
+            <div class="container-fluid">
+              <div class="row test">
+                <div class="column cl1">
+                  <div class="container-fluid">
+                    <div class="row test">
+                      <div class="column cl2">
+                        <img src="img/flat3.jpg" alt="Snow" style="width:39vw;height:28vh;">
+                      </div>
                     </div>
-                    <div class="two">
-                            <img src="img/bg.jpeg" alt="" class="img-responsive">
-                    </div>
-                    <div class="three">
-                            <img src="img/bg.jpeg" alt="" class="img-responsive">
-                    </div>
-                    <div class="four">
-                            <img src="img/bg.jpeg" alt="" class="img-responsive">
-                    </div>
-                    <div class="five">
-                            <img src="img/bg.jpeg" alt="" class="img-responsive">
-                    </div>
-                    <div class="six">
-                            <img src="img/bg.jpeg" alt="" class="img-responsive">
+                    <div class="row test">
+                      <div class="column cl3">
+                        <img src="img/sq1.jpg" alt="Snow" style="width:19.5vw;height:28vh;">
+                      </div>
+                      <div class="column cl4">
+                        <img src="img/sq2.jpg" alt="Snow" style="width:19.5vw;height:28vh;">
+                      </div>
                     </div>
                   </div>
+                </div>
+                <div class="column">
+                  <div class="container-fluid">
+                    <div class="row test">
+                      <div class="column cl5">
+                        <img src="img/flat4.jpg" alt="Snow" style="width:39vw;height:28vh;">
+                      </div>
+                    </div>
+                    <div class="row test">
+                      <div class="column cl6">
+                        <img src="img/flat1.jpg" alt="Snow" style="width:39vw;height:28vh;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="container-fluid">
+                    <div class="row test">
+                      <div class="column cl7">
+                        <img src="img/top1.jpg" alt="Snow" style="width:39vw;height:56vh;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row test">
+                <div class="column cl9">
+                  <img src="img/flat1.jpg" alt="Snow" style="width:39vw;height:28vh;">
+                </div>
+                <div class="column cl10">
+                  <img src="img/top1.jpg" alt="Forest" style="width:15vw;height:28vh;">
+                </div>
+                <div class="column cl11">
+                  <img src="img/flat2.jpg" alt="Mountains" style="width:48vw;height:28vh;">
+                </div>
+              </div>
+            </div>
+
     </section>
     <!-- End Of Gallery Section -->
 
